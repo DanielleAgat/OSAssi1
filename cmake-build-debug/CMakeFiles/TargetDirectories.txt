@@ -1,0 +1,3 @@
+/Users/Agat/Desktop/לימודים/שנה ב/סמסטר ב/ארגון המחשב ושפת סף/OSAssi1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Agat/Desktop/לימודים/שנה ב/סמסטר ב/ארגון המחשב ושפת סף/OSAssi1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Agat/Desktop/לימודים/שנה ב/סמסטר ב/ארגון המחשב ושפת סף/OSAssi1/cmake-build-debug/CMakeFiles/OSAssi1.dir
