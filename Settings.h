@@ -4,27 +4,50 @@
 
 #ifndef OSASSI1_SETTINGS_H
 #define OSASSI1_SETTINGS_H
+#include "stdbool.h"
+
 #define MAX_COMMAND_LEN 10
+#define EXIT 'L'
+#define NEW_EXP 'N'
+#define PRINT 'P'
+#define EVAL 'E'
+
+#define PRINT_F false
+#define EVAL_F true
+
 enum EXP_TYPE {
-    ADD, SUB, MUL, DIV, BAD_EXP
+    ADD = 'A', SUB = 'S', MUL = 'M', DIV = 'D', BAD_EXP
 };
+
 enum OPERAND_TYPE {
-    VALUE, VAR_X, BAD_OPERAND
+    VALUE = 'V', VAR_X = 'X', BAD_OPERAND
 };
+
 enum WHOM_TO_OUTPUT {
-    CURRENT, ALL_EXP, NONE
+    CURRENT = 'C', ALL_EXP = 'T', NONE
 };
-struct operand {
+
+typedef struct operand {
     enum OPERAND_TYPE type;
     int val; // value, valid if this is not a variable
-};
-struct exp { // binary expression
+}operand;
+
+typedef struct exp { // binary expression
     enum EXP_TYPE type;
-    struct operand oper1, oper2;
-};
-struct Node {
-    struct exp *expr;
-    struct Node *next;
-};
+    operand oper1, oper2;
+}exp;
+
+typedef struct node {
+    exp *expr;
+    struct node *next;
+}node;
+
+typedef struct totalExp{
+    exp exp;
+    enum WHOM_TO_OUTPUT whmOut;
+    bool printOrEval;
+    bool isLastExp;
+    bool isNewExp;
+}totalExp;
 
 #endif //OSASSI1_SETTINGS_H
