@@ -1,7 +1,3 @@
-//
-// Created by Agat Levi on 22/10/2021.
-//
-
 #ifndef OSASSI1_LIST_H
 #define OSASSI1_LIST_H
 #include "Settings.h"
@@ -10,15 +6,17 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-node *head = NULL;
-node *tail = NULL;
-node *current = NULL;
+typedef struct listExp{
+    node *head;
+    node *tail;
+}List;
 
-bool isEmpty();
-void addNodeToTail(node* toAdd);
-void addExpToTail(exp* toAdd);
 
-int length();
-void printList();
+bool is_empty(List* list);
+void add_node_to_tail(List* list, node* toAdd);
+void add_exp_to_tail(List* list, exp* to_add);
+void make_empty_list(List* lst);
+int length(List* list);
+void print_list(List* list, bool is_eval, int x);
 
-#endif //OSASSI1_LIST_H
+#endif
