@@ -30,11 +30,11 @@ void program(){
     while(1){
         init_total_exp(&expr);
         fflush(stdin);
-        fgets(commands, MAX_COMMAND_LEN, stdin);
+        scanf("%s",commands);
         for(int i = 0; i < MAX_COMMAND_LEN && !END_OF_COMMAND(commands[i]); i++){
             enter_new_command(commands[i], &expr);
         }
-//        fflush(stdout);
+        fflush(stdout);
 
         //Scan operands:
         if(expr.is_new_exp) {
