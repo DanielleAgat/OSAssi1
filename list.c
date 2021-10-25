@@ -1,3 +1,5 @@
+//Student's ID: 313357329
+//Student's name: Danielle Agat Levi
 #include "list.h"
 
 void make_empty_list(List* lst){

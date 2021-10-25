@@ -1,9 +1,13 @@
+//Student's ID: 313357329
+//Student's name: Danielle Agat Levi
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Settings.h"
 #include "stdbool.h"
 #include "list.h"
 
+#define _CRT_SECURE_NO_WARNINGS
 #define EOS '\0'
 #define ENTER '\n'
 #define END_OF_COMMAND(command) (command == EOS || command == ENTER)

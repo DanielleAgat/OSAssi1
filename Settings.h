@@ -1,3 +1,5 @@
+//Student's ID: 313357329
+//Student's name: Danielle Agat Levi
 #ifndef OSASSI1_SETTINGS_H
 #define OSASSI1_SETTINGS_H
 #include "stdbool.h"
