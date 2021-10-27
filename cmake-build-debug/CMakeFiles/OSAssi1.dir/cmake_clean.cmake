@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/OSAssi1.dir/Settings.c.o"
-  "CMakeFiles/OSAssi1.dir/main.c.o"
+  "CMakeFiles/OSAssi1.dir/ex1_q1.c.o"
+  "CMakeFiles/OSAssi1.dir/list.c.o"
   "OSAssi1"
   "OSAssi1.pdb"
 )
