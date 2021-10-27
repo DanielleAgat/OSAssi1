@@ -32,7 +32,7 @@ void print_good_expression(exp* expression){
 }
 
 int evaluate(exp* expression, int x){
-    int value;
+    int value = 0;
     int operand1 = (expression->oper1.type != VAR_X) ? expression->oper1.val : x;
     int operand2 = (expression->oper2.type != VAR_X) ? expression->oper2.val : x;
 
@@ -48,6 +48,8 @@ int evaluate(exp* expression, int x){
             break;
         case DIV:
             value = operand1 / operand2;
+            break;
+        case BAD_EXP:
             break;
     }
     return value;
