@@ -2,7 +2,7 @@
 //Student's name: Danielle Agat Levi
 #ifndef OSASSI1_LIST_H
 #define OSASSI1_LIST_H
-#include "Settings.h"
+#include "settings.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

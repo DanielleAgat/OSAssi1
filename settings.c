@@ -1,6 +1,6 @@
 //Student's ID: 313357329
 //Student's name: Danielle Agat Levi
-#include "Settings.h"
+#include "settings.h"
 
 void print_exp(exp* expression, bool should_eval, int x){
     if(expression->type != BAD_EXP){ //New expression with 2 operands

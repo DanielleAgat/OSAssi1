@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "Settings.h"
+#include "settings.h"
 #include "stdbool.h"
 #include "list.h"
 
