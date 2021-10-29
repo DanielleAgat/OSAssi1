@@ -92,31 +92,31 @@ CMakeFiles/OSAssi1.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAssi1.dir/list.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avivnevelev/Desktop/Programming/OSAssi1/list.c -o CMakeFiles/OSAssi1.dir/list.c.s
 
-CMakeFiles/OSAssi1.dir/Settings.c.o: CMakeFiles/OSAssi1.dir/flags.make
-CMakeFiles/OSAssi1.dir/Settings.c.o: ../Settings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSAssi1.dir/Settings.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSAssi1.dir/Settings.c.o -c /Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.c
+CMakeFiles/OSAssi1.dir/settings.c.o: CMakeFiles/OSAssi1.dir/flags.make
+CMakeFiles/OSAssi1.dir/settings.c.o: ../settings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/OSAssi1.dir/settings.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/OSAssi1.dir/settings.c.o -c /Users/avivnevelev/Desktop/Programming/OSAssi1/settings.c
 
-CMakeFiles/OSAssi1.dir/Settings.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAssi1.dir/Settings.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.c > CMakeFiles/OSAssi1.dir/Settings.c.i
+CMakeFiles/OSAssi1.dir/settings.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OSAssi1.dir/settings.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/avivnevelev/Desktop/Programming/OSAssi1/settings.c > CMakeFiles/OSAssi1.dir/settings.c.i
 
-CMakeFiles/OSAssi1.dir/Settings.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAssi1.dir/Settings.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.c -o CMakeFiles/OSAssi1.dir/Settings.c.s
+CMakeFiles/OSAssi1.dir/settings.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OSAssi1.dir/settings.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/avivnevelev/Desktop/Programming/OSAssi1/settings.c -o CMakeFiles/OSAssi1.dir/settings.c.s
 
 # Object files for target OSAssi1
 OSAssi1_OBJECTS = \
 "CMakeFiles/OSAssi1.dir/ex1_q1.c.o" \
 "CMakeFiles/OSAssi1.dir/list.c.o" \
-"CMakeFiles/OSAssi1.dir/Settings.c.o"
+"CMakeFiles/OSAssi1.dir/settings.c.o"
 
 # External object files for target OSAssi1
 OSAssi1_EXTERNAL_OBJECTS =
 
 OSAssi1: CMakeFiles/OSAssi1.dir/ex1_q1.c.o
 OSAssi1: CMakeFiles/OSAssi1.dir/list.c.o
-OSAssi1: CMakeFiles/OSAssi1.dir/Settings.c.o
+OSAssi1: CMakeFiles/OSAssi1.dir/settings.c.o
 OSAssi1: CMakeFiles/OSAssi1.dir/build.make
 OSAssi1: CMakeFiles/OSAssi1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable OSAssi1"

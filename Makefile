@@ -20,7 +20,7 @@ ex1_q1: ex1_q1.o Settings.o list.o
 	$(CC) -o $(PROG)  $(CFLAGS) ex1_q1.o Settings.o list.o
 test: $(PROG)
 	@echo going to run test
-	./$(PROG) < in.txt > out.log
+	./$(PROG) <in.txt >out.log
 
 clean:
 	rm -v *.o $(PROG)

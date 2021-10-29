@@ -129,30 +129,6 @@ OSAssi1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/build
 .PHONY : OSAssi1/fast
 
-Settings.o: Settings.c.o
-.PHONY : Settings.o
-
-# target to build an object file
-Settings.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/Settings.c.o
-.PHONY : Settings.c.o
-
-Settings.i: Settings.c.i
-.PHONY : Settings.i
-
-# target to preprocess a source file
-Settings.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/Settings.c.i
-.PHONY : Settings.c.i
-
-Settings.s: Settings.c.s
-.PHONY : Settings.s
-
-# target to generate assembly for a file
-Settings.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/Settings.c.s
-.PHONY : Settings.c.s
-
 ex1_q1.o: ex1_q1.c.o
 .PHONY : ex1_q1.o
 
@@ -201,6 +177,30 @@ list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/list.c.s
 .PHONY : list.c.s
 
+settings.o: settings.c.o
+.PHONY : settings.o
+
+# target to build an object file
+settings.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/settings.c.o
+.PHONY : settings.c.o
+
+settings.i: settings.c.i
+.PHONY : settings.i
+
+# target to preprocess a source file
+settings.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/settings.c.i
+.PHONY : settings.c.i
+
+settings.s: settings.c.s
+.PHONY : settings.s
+
+# target to generate assembly for a file
+settings.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OSAssi1.dir/build.make CMakeFiles/OSAssi1.dir/settings.c.s
+.PHONY : settings.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OSAssi1"
-	@echo "... Settings.o"
-	@echo "... Settings.i"
-	@echo "... Settings.s"
 	@echo "... ex1_q1.o"
 	@echo "... ex1_q1.i"
 	@echo "... ex1_q1.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
+	@echo "... settings.o"
+	@echo "... settings.i"
+	@echo "... settings.s"
 .PHONY : help
 
 

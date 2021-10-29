@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.c" "/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles/OSAssi1.dir/Settings.c.o"
   "/Users/avivnevelev/Desktop/Programming/OSAssi1/ex1_q1.c" "/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles/OSAssi1.dir/ex1_q1.c.o"
   "/Users/avivnevelev/Desktop/Programming/OSAssi1/list.c" "/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles/OSAssi1.dir/list.c.o"
+  "/Users/avivnevelev/Desktop/Programming/OSAssi1/settings.c" "/Users/avivnevelev/Desktop/Programming/OSAssi1/cmake-build-debug/CMakeFiles/OSAssi1.dir/settings.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -78,12 +78,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.c">
-			<Option target="OSAssi1"/>
-		</Unit>
-		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/Settings.h">
-			<Option target="OSAssi1"/>
-		</Unit>
 		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/ex1_q1.c">
 			<Option target="OSAssi1"/>
 		</Unit>
@@ -91,6 +85,12 @@
 			<Option target="OSAssi1"/>
 		</Unit>
 		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/list.h">
+			<Option target="OSAssi1"/>
+		</Unit>
+		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/settings.c">
+			<Option target="OSAssi1"/>
+		</Unit>
+		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/settings.h">
 			<Option target="OSAssi1"/>
 		</Unit>
 		<Unit filename="/Users/avivnevelev/Desktop/Programming/OSAssi1/CMakeLists.txt">
