@@ -26,7 +26,7 @@ int main() {
 
 void program(){
     char* commands = (char*)malloc(sizeof(char)* MAX_COMMAND_LEN);
-    total_exp expr;
+    total_exp expr={.exp=NULL,.print_or_eval=false,.is_new_exp=false,.whm_out=NONE,.is_last_exp=false};
     expr.exp = (exp*)malloc(sizeof(exp));
     List list;
     make_empty_list(&list);
@@ -42,7 +42,9 @@ void program(){
 
         //Scan operands:
         if(expr.is_new_exp) {
+            fgetc(stdin);// remove '\n'
             scan_operand(&expr.exp->oper1);
+            fgetc(stdin);// remove 'space'
             scan_operand(&expr.exp->oper2);
             add_exp_to_tail(&list, expr.exp);
         }else if(expr.exp->oper1.type == VAR_X){
@@ -62,8 +64,11 @@ void program(){
 }
 
 void scan_operand(operand* oper){
-    int num_of_scanned = scanf("%d", &(oper->val));
+    int input=0;
+    int num_of_scanned = scanf("%d", &input);
+    oper->val=input;
     if (num_of_scanned == 0) { //Assuming input is valid (integer or 'X')
+        fgetc(stdin);//to read X
         oper->type = VAR_X;
         oper->val = 0;
     } else {

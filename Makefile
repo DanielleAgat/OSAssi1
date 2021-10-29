@@ -13,7 +13,7 @@ list.o: list.c list.h
 Settings.o: settings.c settings.h
 	$(CC) $(CFLAGS) -c Settings.c
 
-ex1_q1.o: ex1_q1.c 
+ex1_q1.o: ex1_q1.c
 	$(CC) $(CFLAGS) -c ex1_q1.c
 
 ex1_q1: ex1_q1.o Settings.o list.o
@@ -21,6 +21,5 @@ ex1_q1: ex1_q1.o Settings.o list.o
 test: $(PROG)
 	@echo going to run test
 	./$(PROG) <in.txt >out.log
-
 clean:
 	rm -v *.o $(PROG)
